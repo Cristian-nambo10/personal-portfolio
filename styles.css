@@ -51,7 +51,7 @@ i:hover {
 }
 
 .link__hover-effect--black:after {
-    background-color: #000;
+    background-color: #F9A826;
 }
 
 .link__hover-effect:hover:after {
@@ -92,6 +92,10 @@ section:nth-child(even) {
     padding-top: 20px;
 }
 
+.flex {
+    background-color: white;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -102,6 +106,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #242424;
 }
 
 .nav__link--list {
@@ -111,7 +116,7 @@ nav {
 
 .nav__link--anchor {
     margin: 0 12px;
-    color: #242424;
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
 }
@@ -145,6 +150,7 @@ nav {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #242424;
 }
 
 .about-me__info {

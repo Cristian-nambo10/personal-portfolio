@@ -218,12 +218,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: animate-profile-picture 800ms 200ms backwards;
 }
 
-.about-me__img--container:hover {
-    transform: scale(1.1);
-}
 
 @keyframes fade-up {
     0% {
